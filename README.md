@@ -19,12 +19,13 @@ vs2017
 
 5、200ms后，MCU发送读取IMEI指令，模块产生应答后软件就可以捕捉到。
 
-6、200ms后，MCU发送读取IMEI指令，模块产生应答后软件就可以捕捉到。
+6、200ms后，MCU发送读取ESIM指令，模块产生应答后软件就可以捕捉到。
 
 7、200ms后，MCU发送信号查询指令（AT+CERG?)，当然也可以是其他的，只要表示读取结束就可以。软件接收到“+CERG”后就认为MAC、IMEI、ESIM读取完成，软件就把这些数据一个是展现在列表框中，一个是写入excel中。
 
 #### 软件效果图：
 ![软件效果图](https://github.com/liuhao1946/MFC-Read-NB-IMIE-ESIM-Tool/blob/master/image/%E8%BD%AF%E4%BB%B6%E8%BF%90%E8%A1%8C%E6%95%88%E6%9E%9C.png)
+
 ![写入excel的效果图](https://github.com/liuhao1946/MFC-Read-NB-IMIE-ESIM-Tool/blob/master/image/%E5%86%99%E5%85%A5excel%E7%9A%84%E6%95%88%E6%9E%9C.jpg)
 
 # 程序说明
