@@ -530,7 +530,7 @@ void CreadesimDlg::OnBnClickedButton1()
 
 void CreadesimDlg::OnTimer(UINT_PTR nIDEvent)
 {
-	// TODO: 在此添加消息处理程序代码和/或调用默认值//
+	// TODO: 在此添加消息处理程序代码和/或调用默认值
 #ifdef SF_TIMER
 	if (nIDEvent == EXCEL_CRE_TIMER_NUM)
 	{
