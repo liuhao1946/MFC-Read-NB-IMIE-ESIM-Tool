@@ -273,7 +273,7 @@ void CALLBACK My_MMTimerProc(UINT uID, UINT uMsg, DWORD dwUsers, DWORD dw1, DWOR
 					//IMIE
 					str_temp = nb_imei;
 					pDlg->mList.SetItemText(lst_idx, 4, str_temp);
-					
+					//显示列表框中最新插入的行
 					int nCount = mList.GetItemCount();
 					if (nCount > 0)
 					   mList.EnsureVisible(nCount - 1, FALSE);
