@@ -273,7 +273,10 @@ void CALLBACK My_MMTimerProc(UINT uID, UINT uMsg, DWORD dwUsers, DWORD dw1, DWOR
 					//IMIE
 					str_temp = nb_imei;
 					pDlg->mList.SetItemText(lst_idx, 4, str_temp);
-
+					
+					int nCount = mList.GetItemCount();
+					if (nCount > 0)
+					   mList.EnsureVisible(nCount - 1, FALSE);
 					lst_idx++;
 
 					app_get_cstring_unit(time_str, dt.time, 50);
