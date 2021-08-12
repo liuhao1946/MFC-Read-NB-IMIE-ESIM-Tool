@@ -31,11 +31,11 @@ vs2017
 # 程序说明
  - 串口模块
  
- 该模块使用了第三方的类实现，由itas109维护，github地址：[串口模块](https://github.com/itas109/CSerialPort)。相比早期版本，最新版本的串口模块可以展现完整的串口名称。
+   该模块使用了第三方的类实现，由itas109维护，github地址：[串口模块](https://github.com/itas109/CSerialPort)。相比早期版本，最新版本的串口模块可以展现完整的串口名称。
  
  - excel读写
  
- excel读写主要由IllusionExcelFile.cpp完成，具体操作参考read esimDlg.cpp
+   excel读写主要由IllusionExcelFile.cpp完成，具体操作参考read esimDlg.cpp
 
  - 只允许同时运行一个程序的方法(代码在read esim.cpp中56~60行)
  ```c++
@@ -51,6 +51,8 @@ vs2017
  ```
   - MFC的.exe文件图标更新
   
-  [exe文件图标更新方法](https://blog.csdn.net/txwtech/article/details/92980545)
-  图标被替换成为们自己的了，但是exe文件的图标还是MFC的默认图标，怎么办？
-  [刷新系统的应用程序图标](https://www.cnblogs.com/qintangtao/p/3397812.html)
+    [exe文件图标更新方法](https://blog.csdn.net/txwtech/article/details/92980545)
+    
+    图标被替换成为们自己的了，但是exe文件的图标还是MFC的默认图标，怎么办？
+    
+    [刷新系统的应用程序图标](https://www.cnblogs.com/qintangtao/p/3397812.html)
