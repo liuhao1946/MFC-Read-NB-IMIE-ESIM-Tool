@@ -2,7 +2,7 @@
 ***
 # 简要说明
 #### MFC软件版本：
-vs2017
+[vs2017](https://github.com/liuhao1946/embedded-software-module/blob/master/MFC%E5%B8%B8%E7%94%A8%E6%93%8D%E4%BD%9C/vs2017.exe)
 
 #### 目的：
 1、用来读取并保存NB蓝牙手环中的每个蓝牙MCU的MAC地址对应的NB模块IMEI号以及配套使用的sim卡号。
