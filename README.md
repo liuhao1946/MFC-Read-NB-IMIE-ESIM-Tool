@@ -40,9 +40,11 @@ vs2017
    
    2、更稳定可靠的发送与接收串口数据
  
- - excel读写
- 
-   excel读写主要由IllusionExcelFile.cpp完成，具体操作参考read esimDlg.cpp
+ - excel创建、读、写
+
+   1、添加一些excel操作的系统文件，方法见[excel文件创建、读取、写入方法](https://github.com/liuhao1946/embedded-software-module/blob/master/MFC%E5%B8%B8%E7%94%A8%E6%93%8D%E4%BD%9C/excel%E5%88%9B%E5%BB%BA%E3%80%81%E8%AF%BB%E3%80%81%E5%86%99/%E4%BE%8B%E5%AD%90.md)
+   
+   2、在工程中加入IllusionExcelFile.cpp，IllusionExcelFile.h，所有excel相关的操作都由这个接口实现，具体操作参考read esimDlg.cpp。
 
  - 只允许同时运行一个程序的方法(代码在read esim.cpp中56~60行)
  ```c++
