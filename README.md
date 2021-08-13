@@ -1,6 +1,6 @@
 # MFC NB ESIM IMEI Read-Write Tool
 ***
-# 简要说明
+# 使用说明
 #### MFC软件版本：
 [vs2017](https://github.com/liuhao1946/embedded-software-module/blob/master/MFC%E5%B8%B8%E7%94%A8%E6%93%8D%E4%BD%9C/vs2017.exe)
 
@@ -34,7 +34,9 @@
  
    该模块使用了第三方的类实现，能够稳定的接收与发送串口信息。串口相关类放在工程中的CSerialPort文件夹下。
   
-   目前该模块由itas109维护，github地址：[串口模块](https://github.com/itas109/CSerialPort)。相比早期版本，最新版本的串口模块有如下优点：
+   目前该模块由itas109维护，github地址：[串口模块](https://github.com/itas109/CSerialPort)。
+   
+   相比早期版本，最新版本的串口模块有如下优点：
    
    1、能展现完整的串口名称
    
